@@ -1,5 +1,9 @@
 package com.main.beans;
 
+
+import strategies.ProductPricingStrategy;
+import strategies.RegularPricingStrategy;
+
 import java.io.InputStream;
 import java.io.Serializable;
 
@@ -29,6 +33,12 @@ public class ProductBean implements Serializable {
 		this.prodImage = prodImage;
 	}
 
+	private ProductPricingStrategy pricingStrategy;
+
+    public ProductBean(ProductPricingStrategy pricingStrategy) {
+        this.pricingStrategy = pricingStrategy;
+    }
+    
 	public String getProdId() {
 		return prodId;
 	}
@@ -61,9 +71,17 @@ public class ProductBean implements Serializable {
 		this.prodInfo = prodInfo;
 	}
 
-	public double getProdPrice() {
+	public double getProdPrice()
+	{
 		return prodPrice;
 	}
+	
+	//Strategy DP
+    public double calculateProductPrice()
+    {
+    	pricingStrategy = new RegularPricingStrategy();
+        return pricingStrategy.calculatePrice(this);
+    }
 
 	public void setProdPrice(double prodPrice) {
 		this.prodPrice = prodPrice;

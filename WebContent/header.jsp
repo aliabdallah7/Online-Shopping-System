@@ -55,7 +55,7 @@
 						class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="index.jsp"><span
-					class="glyphicon glyphicon-home">&nbsp;</span>Shopping Center</a>
+					class="glyphicon glyphicon-home">&nbsp;</span>FCIS Online Shopping</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
@@ -92,7 +92,7 @@
 						class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="userHome.jsp"><span
-					class="glyphicon glyphicon-home">&nbsp;</span>Shopping Center</a>
+					class="glyphicon glyphicon-home">&nbsp;</span>FCIS Online Shopping</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="myNavbar">
@@ -148,7 +148,7 @@
 						class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="adminViewProduct.jsp"><span
-					class="glyphicon glyphicon-home">&nbsp;</span>Shopping Center</a>
+					class="glyphicon glyphicon-home">&nbsp;</span>FCIS Online Shopping</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">

@@ -36,7 +36,7 @@ public class UserServiceImpl implements UserService {
 			status = "Email Id Already Registered!";
 			return status;
 		}
-		Connection conn = DBUtil.provideConnection();
+		Connection conn = SingletonObject.getInstance();
 		PreparedStatement ps = null;
 		if (conn != null) {
 			System.out.println("Connected Successfully!");

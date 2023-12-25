@@ -3,8 +3,8 @@ package com.main.beans;
 import java.io.Serializable;
 
 @SuppressWarnings("serial")
-public class DemandBean implements Serializable {
-
+public class DemandBean implements Serializable
+{
 	private String userName;
 	private String prodId;
 	private int demandQty;
